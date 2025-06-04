@@ -22,5 +22,5 @@ find -name "amazed" -exec echo -e "${orange_color}|-~${blue_color}W${orange_colo
 
 echo -e "${orange_color}|-~${blue_color}WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW${orange_color}~-|${reset_color}";
 echo -e "${orange_color}|-~${blue_color}WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW${orange_color}~-|${reset_color}";
-sleep 3;
+sleep 1;
 clear;

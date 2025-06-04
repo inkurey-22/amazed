@@ -5,7 +5,7 @@
 ** room
 */
 
-#include "../../include/amazed.h"
+#include "amazed.h"
 
 static void init_links(robot_t *r, int indi, char **buffer)
 {

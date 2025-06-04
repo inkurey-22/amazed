@@ -28,14 +28,13 @@ OBJ	=	$(SRC:.c=.o)
 
 NAME	=	amazed
 
-CFLAGS	= -W -Wall -Wextra -Werror -Wpedantic -g
+CFLAGS	= -W -Wall -Wextra -Werror -Wpedantic -Iinclude
 
 all:	$(NAME)
 
 $(NAME):	$(OBJ)
 	make -C ./lib/my
-	gcc -o $(NAME) $(OBJ) -L./lib/my -lmy
-	make clean
+	gcc -o $(NAME) $(OBJ) -L./lib/my -lmy $(CFLAGS)
 
 clean:
 	make clean -C ./lib/my

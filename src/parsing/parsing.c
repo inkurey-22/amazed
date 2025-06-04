@@ -5,7 +5,7 @@
 ** parsing
 */
 
-#include "../../include/amazed.h"
+#include "amazed.h"
 
 int parse_my_text(char **text, robot_t *robot, char *line)
 {

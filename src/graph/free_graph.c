@@ -5,7 +5,7 @@
 ** free_graph.c
 */
 
-#include "../../include/amazed.h"
+#include "amazed.h"
 
 static void free_node_list(node_link_list_t *node_list)
 {

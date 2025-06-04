@@ -5,7 +5,7 @@
 ** init_moves.c
 */
 
-#include "../../include/amazed.h"
+#include "amazed.h"
 
 node_t *find_path(node_t *node)
 {

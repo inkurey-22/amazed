@@ -5,7 +5,7 @@
 ** create_graph.c
 */
 
-#include "../../include/amazed.h"
+#include "amazed.h"
 
 static node_link_list_t *create_node_list(robot_t *robot)
 {

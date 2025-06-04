@@ -5,7 +5,7 @@
 ** display.c
 */
 
-#include "../include/amazed.h"
+#include "amazed.h"
 
 static int add_word(char *buffer, char *word, int indice)
 {

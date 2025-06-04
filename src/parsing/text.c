@@ -5,7 +5,7 @@
 ** text
 */
 
-#include "../../include/amazed.h"
+#include "amazed.h"
 
 int find_lenght(link_list_t *list)
 {

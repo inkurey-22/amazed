@@ -5,7 +5,7 @@
 ** init_robot
 */
 
-#include "../../include/amazed.h"
+#include "amazed.h"
 
 robot_t *init_robot(void)
 {

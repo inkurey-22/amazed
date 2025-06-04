@@ -5,7 +5,7 @@
 ** comments
 */
 
-#include "../../include/amazed.h"
+#include "amazed.h"
 
 void supprimer_null_strings(char **liste)
 {

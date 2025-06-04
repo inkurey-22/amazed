@@ -5,7 +5,7 @@
 ** start_end
 */
 
-#include "../../include/amazed.h"
+#include "amazed.h"
 
 void room_start(char **text, robot_t *robot)
 {

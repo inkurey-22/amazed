@@ -5,7 +5,7 @@
 ** number_robot
 */
 
-#include "../../include/amazed.h"
+#include "amazed.h"
 
 int find_number_of_robot(char **text, robot_t *robot)
 {

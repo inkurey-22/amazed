@@ -5,7 +5,7 @@
 ** utils.c
 */
 
-#include "../../include/amazed.h"
+#include "amazed.h"
 
 void remove_link(node_link_list_t *link, char *room)
 {

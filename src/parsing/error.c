@@ -5,7 +5,7 @@
 ** error
 */
 
-#include "../../include/amazed.h"
+#include "amazed.h"
 
 int check_error(robot_t *robot)
 {
